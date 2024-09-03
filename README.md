@@ -1,4 +1,4 @@
-🇮🇹 🇬🇧 Istruzioni - Instrucion
+🇮🇹 🇬🇧 Istruzioni - Instructions
 ------
 
 Esporta le immagini di una collezione personale di instagram

@@ -3,7 +3,7 @@ import requests
 from haralyzer import HarPage
 import os
 
-# Funzione per scaricare le immagini da un file HAR
+
 def scarica_immagini_da_har(file_har, output_dir='downloaded_images'):
     # Crea la cartella di output se non esiste
     if not os.path.exists(output_dir):
@@ -49,6 +49,6 @@ def scarica_immagini_da_har(file_har, output_dir='downloaded_images'):
         else:
             print(f"Richiesta Nr {i} saltata: MIME type non presente o richiesta non riuscita.")
 
-# Esempio di utilizzo
-file_har = 'pictures.har'  # Sostituisci con il percorso del tuo file HAR
+# Esecuzione
+file_har = 'pictures.har'  # Nome file HAR
 scarica_immagini_da_har(file_har)
